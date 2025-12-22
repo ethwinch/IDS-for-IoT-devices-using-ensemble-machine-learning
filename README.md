@@ -9,7 +9,7 @@
 <h3>Proposed Algorithms</h3>
 <p>Two machine-learning models were used for detecting anomalies, including Decision Tree and Random Forest. Then, an ensemble voting classifier used soft voting to take the combined average of each model’s prediction for a more confident prediction. </p>
 <h2>Workflow Diagram</h2>
-<iframe src="https://drive.google.com/file/d/1Z4DdqJxJnmiVoAPmyhmO_7WqlXJDnoZu/preview" width="640" height="480"></iframe>
+<img width="875" height="675" alt="image" src="https://github.com/user-attachments/assets/3872b08c-86bc-4007-a7a4-58126068ca04" />
 <h2>Success Metrics</h2>
 <p>By combining multiple machine learning classifiers, such as Random Forest and Decision Tree, in an ensemble structure, the model aims to improve detection accuracy while maintaining a low resource consumption suitable for IoT hardware. The system will be evaluated using publicly available IoT datasets and benchmarked against single-model baselines using metrics like F1, detection accuracy, CV and ROC-AUC scores. This approach will seek to provide a more flexible and energy-efficient solution for mitigating IoT-based security threats.</p>
 <h3>Ensemble Voting Classifier</h3>
