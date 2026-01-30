@@ -7,7 +7,7 @@
 <h3>Data Preprocessing</h3>
 <p>Raw data is checked for missing values, null values, incorrect formatting and duplicates. The first step is cleaning the data of these impurities and then applying light weight scaling to standardize the mean to zero and standard deviation to one. Then, the data is fed into the model in order to achieve optimal results and accuracy.</p>
 <h3>Proposed Algorithms</h3>
-<p>Two machine-learning models were used for detecting anomalies, including Decision Tree and Random Forest. Then, an ensemble voting classifier used soft voting to take the combined average of each model’s prediction for a more confident prediction. </p>
+<p>Two machine-learning models were used for detecting anomalies, including Decision Tree and Random Forest. Then, an ensemble voting classifier used hard voting to take the combined average of each model’s prediction for a more confident prediction. </p>
 <h2>Workflow Diagram</h2>
 <img width="875" height="675" alt="image" src="https://github.com/user-attachments/assets/3872b08c-86bc-4007-a7a4-58126068ca04" />
 <h2>Success Metrics</h2>
